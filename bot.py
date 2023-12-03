@@ -1,6 +1,6 @@
 import telebot
 # create a new bot instance
-bot = telebot.TeleBot('6157533013:AAG7ZxpndJqg7VG5sA_6tWlGePc8XlT4xto')
+bot = telebot.TeleBot('YOUR API')
 
 # define a handler function for the '/start' command
 @bot.message_handler(commands=['start'])
